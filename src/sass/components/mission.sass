@@ -1,6 +1,7 @@
 .mission-wrapp
     background: $light-gradient
     padding: 100px 0 60px 0
+    overflow: hidden
 
 .misson-content
     position: relative
@@ -8,6 +9,18 @@
     justify-content: center
     align-items: center
     width: 100%
+    .decor-dot1
+        background: $blue-gradient
+        top: 5%
+        left: 0
+    .decor-dot2
+        top: 100%
+        left: 110%
+        background: $yellow-gradient
+    .decor-dot3
+        background: $blue-gradient
+        left: 110%
+        top: 0
     .decor-word
         opacity: 0.65
         top: -65%
@@ -20,6 +33,16 @@
         -webkit-text-fill-color: transparent 
         -webkit-text-stroke-width: 1px
         -webkit-text-stroke-color: #fff
+    .dot
+        a
+            color: #fff
+        span
+            border: 1px solid #fff
+        .name
+            border: none 
+            width: 100px
+    .navigator-wrap 
+        top: 25%
 
 .mission-desc
     text-align: center
@@ -79,7 +102,7 @@
         font-size: 16rem
         color: #fff
         margin-bottom: 40px
-        line-height: 160%        
+        line-height: 160%   
     li
         position: relative
         text-align: left
@@ -90,13 +113,13 @@
         &:last-child
             margin-bottom: 97px
         &::before
-           content: ""
-           position: absolute
-           top: 8px
-           left: 0
-           border-radius: 50px
-           width: 5px
-           height: 5px
-           background: #FFC149
+            content: ""
+            position: absolute
+            top: 8px
+            left: 0
+            border-radius: 50px
+            width: 5px
+            height: 5px
+            background: #FFC149
 
             
