@@ -1,0 +1,97 @@
+.contacts-wrap
+    background: $light-gradient
+    padding: 110px 0 100px 0
+    position: relative
+    z-index: 10
+
+.contacts-content
+    position: relative
+    display: flex
+    width: 100%
+    .decor-dot1,
+    .decor-dot3
+        background: $blue-gradient
+    .decor-dot1
+        top: 85%
+        left: 26%
+    .decor-dot2
+        top: 85%
+        left: 110%
+        background: $yellow-gradient
+    .decor-dot3
+        top: 0
+        left: 32.5%
+    .to-down
+        left: 50%
+        top: 160%
+        width: 61px
+        height: 61px
+    .decor-word
+        opacity: 0.65
+        top: -17%
+        left: 5%
+        z-index: 2
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 160rem
+        color: #fff
+        -webkit-text-fill-color: transparent 
+        -webkit-text-stroke-width: 1px
+        -webkit-text-stroke-color: #fff
+
+.contacts-desc
+    text-align: center
+    width: 100%
+    h2
+        font-size: 60rem
+        color: #fff
+        margin-bottom: 55px
+
+.contacts-link
+    display: flex
+    justify-content: space-between
+    text-align: center
+    margin-bottom: 100px
+    a
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 100%
+        padding: 40px 
+        border: 1px solid #7C4DB2
+        &:first-child
+            border-radius: 20px 0 0 20px
+        &:last-child
+            border-radius: 0 20px 20px 0
+        &:hover
+            border: 1px solid #F28D1C
+            border-bottom: 5px solid #F28D1C
+        span
+            display: block
+            font-size: 16rem
+            color: #fff
+            opacity: 0.65
+            line-height: 20rem
+        .tt
+            font-weight: 600
+            opacity: 1
+            text-transform: uppercase
+            margin-bottom: 15px
+        .svg
+            height: 72px
+            width: 72px
+            opacity: 1
+            background: linear-gradient(90deg, #F28D1C 0%, #FBC658 100%)
+            display: block
+            margin-bottom: 30px
+            border-radius: 50px
+        svg
+            height: 72px
+            width: 72px
+
+.contacts-btn
+    display: flex
+    justify-content: center
+    a
+        &:first-child
+            margin-right: 30px

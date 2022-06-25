@@ -1,0 +1,143 @@
+.galery-wrap
+    padding: 100px 0 200px 0
+
+.galery-content
+    position: relative
+    .decor-dot1
+        background: $blue-gradient
+        top: 78%
+        left: -7%
+    .decor-dot2
+        top: 5%
+        left: 0
+        background: $yellow-gradient
+    .decor-dot3
+        background: $blue-gradient
+        left: 105%
+        top: 55%
+
+.galery-desc
+    h2
+        text-align: center
+        font-weight: 700
+        font-size: 60rem
+        color: #2B251E
+        margin-bottom: 60px
+    p
+        margin-bottom: 30px
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 30rem
+        color: #2B251E
+
+.galery-plate
+    display: flex
+
+.swiper
+    width: 1518px
+    height: 100%
+
+.swiper-slide 
+    display: flex
+
+.swiper-prev,
+.swiper-next
+    cursor: pointer
+    position: absolute
+    content: ""
+    top: 105%
+    border-radius: 50px
+    svg
+        width: 61px
+        height: 61px
+        fill: #fff
+        stroke: #1884FA
+    &:hover
+        background: linear-gradient(90deg, #FF0E74 0%, #FF5B8B 100%)
+        svg
+            fill: none
+            stroke: #fff
+            
+.swiper-next
+    left: 96%
+
+.swiper-scroll
+    position: absolute
+    content: ""
+    height: 15px
+    background: #000
+    top: 108.6%
+    width: 1000px
+    opacity: 0.5
+
+.swiper-scrollbar-drag
+    width: 191px !important
+    background: #1884FA
+
+.swiper-scrollbar
+    background: #E8F3FE
+    left: 15% !important
+    top: 108.6% !important
+    width: 70% !important
+    height: 3px !important
+
+.main-photo
+    display: flex
+    margin-right: 20px
+    a
+        position: relative
+        display: inline-block
+    img 
+        width: 1159px
+        height: 536px
+
+    span
+        position: absolute
+        text-transform: uppercase
+        color: white
+        padding: 40px
+        vertical-align: bottom
+        display: flex
+        align-items: end
+        top: 0
+        left: 0
+        border-radius: 20px 
+        width: 100%
+        height: 97.5%
+        font-size: 16rem
+        transition: 0.5s
+        background: linear-gradient(180deg, rgba(23, 21, 28, 0) 0%, #17151C 100%)
+        &:hover
+            opacity: 0.4
+            background: #1884FA
+
+.second-photo
+    display: flex
+    flex-direction: column
+    a
+        position: relative
+        margin-bottom: 17px
+    img
+        width: 339px
+        height: 167px
+    span
+        position: absolute
+        text-transform: uppercase
+        color: white
+        padding: 15px
+        vertical-align: bottom
+        display: flex
+        align-items: end
+        top: 0
+        left: 0
+        border-radius: 20px 
+        width: 100%
+        height: 100%
+        font-size: 12rem
+        transition: 0.5s
+        background: linear-gradient(180deg, rgba(23, 21, 28, 0) 0%, #17151C 100%)
+        &:hover
+            opacity: 0.4
+            background: #1884FA
+
+
